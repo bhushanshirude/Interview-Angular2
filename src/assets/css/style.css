@@ -1,0 +1,27 @@
+    .header {
+        background-color: #337ab7;
+        width: 100%;
+        height: 80px;
+        position: fixed;
+        right: 0;
+        top: 0;
+        left: 0;
+    }
+    
+    .header h2 {
+        color: white;
+        line-height: 80px;
+        margin-left: 50px;
+    }
+    
+    .fixed-bottom {
+        background-color: #337ab7;
+        height: 60px;
+    }
+    
+    .fixed-bottom h3 {
+        color: white;
+        line-height: 60px;
+        margin-left: 50px;
+        columns: 5;
+    }

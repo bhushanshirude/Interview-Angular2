@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo" style="margin-left:50px;">Interview portal</a>
+        <ul class="right hide-on-med-and-down" style="margin-right:900px;">
+            <li><a [routerLink]="['/home']">Home</a></li>
+            <li><a [routerLink]="['/home/child']">Test</a></li>
+        </ul>
+    </div>
+</nav>
+<router-outlet></router-outlet>
